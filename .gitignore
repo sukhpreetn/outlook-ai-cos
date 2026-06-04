@@ -1,0 +1,12 @@
+local.settings.json
+bin/
+obj/
+.azure/
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
+.env
+node_modules/
+__pycache__/
+.venv/
+venv/

@@ -1,0 +1,1 @@
+{"version":3,"file":"Router.d.ts","sourceRoot":"","sources":["../../src/email-pipeline/Router.ts"],"names":[],"mappings":"AAmBA,OAAO,EAAa,WAAW,EAAE,MAAM,yBAAyB,CAAC;AASjE,OAAO,KAAK,EAAE,YAAY,EAAE,MAAM,8BAA8B,CAAC;AACjE,OAAO,KAAK,EAAE,cAAc,EAAE,MAAM,iBAAiB,CAAC;AAQtD,wBAAsB,mBAAmB,CACvC,GAAG,EAAE,YAAY,EACjB,GAAG,EAAE,cAAc,EACnB,GAAG,EAAE,WAAW,GACf,OAAO,CAAC,IAAI,CAAC,CAoDf"}

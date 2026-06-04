@@ -1,0 +1,32 @@
+{
+  "name": "outlook-ai-cos",
+  "version": "0.1.0",
+  "description": "AI Chief of Staff — Outlook Edition",
+  "main": "dist/functions/*.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "func start",
+    "test": "jest",
+    "prestart": "npm run build"
+  },
+  "dependencies": {
+    "@azure/app-configuration": "^1.7.0",
+    "@azure/data-tables": "^13.2.2",
+    "@azure/identity": "^4.4.1",
+    "@azure/keyvault-secrets": "^4.8.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@azure/functions": "^4.5.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
